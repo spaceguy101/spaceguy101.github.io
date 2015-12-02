@@ -1,0 +1,11 @@
+# Site settings
+title: ThinkBot
+email: shreyasponkshe12345.com
+description: > # this means to ignore newlines until "baseurl:"
+  Science ,Technology and Programming.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://spaceguy101.github.io" # the base hostname & protocol for your site
+github_username:  spaceguy101
+
+# Build settings
+markdown: kramdown
