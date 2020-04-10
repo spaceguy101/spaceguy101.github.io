@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.e346636d.chunk.css",
-    "main.js": "/static/js/main.64430baa.chunk.js",
-    "main.js.map": "/static/js/main.64430baa.chunk.js.map",
+    "main.css": "/static/css/main.90610609.chunk.css",
+    "main.js": "/static/js/main.da2261ef.chunk.js",
+    "main.js.map": "/static/js/main.da2261ef.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eab88133.js",
     "runtime-main.js.map": "/static/js/runtime-main.eab88133.js.map",
-    "static/js/2.c5688908.chunk.js": "/static/js/2.c5688908.chunk.js",
-    "static/js/2.c5688908.chunk.js.map": "/static/js/2.c5688908.chunk.js.map",
+    "static/js/2.d5702f49.chunk.js": "/static/js/2.d5702f49.chunk.js",
+    "static/js/2.d5702f49.chunk.js.map": "/static/js/2.d5702f49.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.74a62b1ef6b98fc718eac8ea7afbf043.js": "/precache-manifest.74a62b1ef6b98fc718eac8ea7afbf043.js",
+    "precache-manifest.98ba371c99771f8d8d44f4a046a9a875.js": "/precache-manifest.98ba371c99771f8d8d44f4a046a9a875.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e346636d.chunk.css.map": "/static/css/main.e346636d.chunk.css.map",
+    "static/css/main.90610609.chunk.css.map": "/static/css/main.90610609.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/boltpics.jpg": "/static/media/boltpics.8e8b350a.jpg",
-    "static/media/busflix.png": "/static/media/busflix.74047ed4.png",
+    "static/media/busflix2.jpg": "/static/media/busflix2.07ecff86.jpg",
     "static/media/coding.svg": "/static/media/coding.46d9f22b.svg",
     "static/media/contactMail.png": "/static/media/contactMail.641df51e.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
     "static/media/all.css": "/static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/graduation.svg": "/static/media/graduation.b1ed41ea.svg",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
-    "static/media/qsso.png": "/static/media/qsso.0dc4c4a3.png",
-    "static/media/TalkCard.css": "/static/media/talksCardBack.de3da806.svg"
+    "static/media/qsso.png": "/static/media/qsso.0dc4c4a3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eab88133.js",
-    "static/js/2.c5688908.chunk.js",
-    "static/css/main.e346636d.chunk.css",
-    "static/js/main.64430baa.chunk.js"
+    "static/js/2.d5702f49.chunk.js",
+    "static/css/main.90610609.chunk.css",
+    "static/js/main.da2261ef.chunk.js"
   ]
 }
