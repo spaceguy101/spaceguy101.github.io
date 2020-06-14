@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "657649384be49a1d00522acbdd409eee",
+    "revision": "c4a97bb162e9b7165a63073165017344",
     "url": "/index.html"
   },
   {
-    "revision": "63764b93c78437e81c83",
-    "url": "/static/css/main.fa88ae9d.chunk.css"
+    "revision": "bca0a048df6550b70587",
+    "url": "/static/css/main.25b1f5a5.chunk.css"
   },
   {
-    "revision": "ebaedd49631843293f96",
-    "url": "/static/js/2.392df17f.chunk.js"
+    "revision": "21def19a894b17f584e4",
+    "url": "/static/js/2.db11e8a9.chunk.js"
   },
   {
-    "revision": "63764b93c78437e81c83",
-    "url": "/static/js/main.adbdd70c.chunk.js"
+    "revision": "bca0a048df6550b70587",
+    "url": "/static/js/main.5a731369.chunk.js"
   },
   {
     "revision": "113734192e259b229392",
@@ -24,12 +24,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Agustina.21f233e1.woff"
   },
   {
+    "revision": "e0bd96dc51b3832dfc08f3bee1bd7ebc",
+    "url": "/static/media/Busflix.e0bd96dc.pdf"
+  },
+  {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "d6d4086fb1cade58b3f786620e17c3ef",
-    "url": "/static/media/contactMail.d6d4086f.png"
+    "revision": "8e8b350ad04e589b2d66f24ce55a445f",
+    "url": "/static/media/boltpics.8e8b350a.jpg"
+  },
+  {
+    "revision": "07ecff864bb20fb3f76158aa999e4203",
+    "url": "/static/media/busflix2.07ecff86.jpg"
+  },
+  {
+    "revision": "212dc9d37ce143f373cab516c3ca3a94",
+    "url": "/static/media/canstores.212dc9d3.jpg"
+  },
+  {
+    "revision": "46d9f22baccdf7718ee608f0b5503c6c",
+    "url": "/static/media/coding.46d9f22b.svg"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
@@ -96,15 +112,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
+    "revision": "b1ed41eadbbdcb15a726673038df549d",
+    "url": "/static/media/graduation.b1ed41ea.svg"
+  },
+  {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "/static/media/logo.25bf045c.svg"
   },
   {
-    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
-    "url": "/static/media/manOnTable.52be3144.svg"
+    "revision": "0dc4c4a330902d96333f6931a322324b",
+    "url": "/static/media/qsso.0dc4c4a3.png"
   },
   {
-    "revision": "de3da8064f2e9ffab945772c2c67e46f",
-    "url": "/static/media/talksCardBack.de3da806.svg"
+    "revision": "731ad51b7bcbbc4a28e73f80badb4dee",
+    "url": "/static/media/shreyas.731ad51b.jpg"
   }
 ]);

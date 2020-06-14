@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.90610609.chunk.css",
-    "main.js": "/static/js/main.a7c5e5fe.chunk.js",
-    "main.js.map": "/static/js/main.a7c5e5fe.chunk.js.map",
+    "main.css": "/static/css/main.25b1f5a5.chunk.css",
+    "main.js": "/static/js/main.5a731369.chunk.js",
+    "main.js.map": "/static/js/main.5a731369.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eab88133.js",
     "runtime-main.js.map": "/static/js/runtime-main.eab88133.js.map",
-    "static/js/2.1c542b32.chunk.js": "/static/js/2.1c542b32.chunk.js",
-    "static/js/2.1c542b32.chunk.js.map": "/static/js/2.1c542b32.chunk.js.map",
+    "static/js/2.db11e8a9.chunk.js": "/static/js/2.db11e8a9.chunk.js",
+    "static/js/2.db11e8a9.chunk.js.map": "/static/js/2.db11e8a9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b8f6f0f0972b397f436b438ff5a38a00.js": "/precache-manifest.b8f6f0f0972b397f436b438ff5a38a00.js",
+    "precache-manifest.ec832fb320b54bcc52b668c5e00d21a6.js": "/precache-manifest.ec832fb320b54bcc52b668c5e00d21a6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.90610609.chunk.css.map": "/static/css/main.90610609.chunk.css.map",
+    "static/css/main.25b1f5a5.chunk.css.map": "/static/css/main.25b1f5a5.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Busflix.pdf": "/static/media/Busflix.e0bd96dc.pdf",
     "static/media/boltpics.jpg": "/static/media/boltpics.8e8b350a.jpg",
     "static/media/busflix2.jpg": "/static/media/busflix2.07ecff86.jpg",
+    "static/media/canstores.jpg": "/static/media/canstores.212dc9d3.jpg",
     "static/media/coding.svg": "/static/media/coding.46d9f22b.svg",
-    "static/media/contactMail.png": "/static/media/contactMail.641df51e.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
     "static/media/all.css": "/static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/graduation.svg": "/static/media/graduation.b1ed41ea.svg",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
-    "static/media/qsso.png": "/static/media/qsso.0dc4c4a3.png"
+    "static/media/qsso.png": "/static/media/qsso.0dc4c4a3.png",
+    "static/media/shreyas.jpg": "/static/media/shreyas.731ad51b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.eab88133.js",
-    "static/js/2.1c542b32.chunk.js",
-    "static/css/main.90610609.chunk.css",
-    "static/js/main.a7c5e5fe.chunk.js"
+    "static/js/2.db11e8a9.chunk.js",
+    "static/css/main.25b1f5a5.chunk.css",
+    "static/js/main.5a731369.chunk.js"
   ]
 }
