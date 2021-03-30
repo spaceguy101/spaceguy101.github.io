@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a35d33fb25a10c6629ef6653de3c509",
+    "revision": "ae6f6aaa647cb9115ee382f80521ea0d",
     "url": "/index.html"
   },
   {
-    "revision": "b5121b83f71062fc3759",
-    "url": "/static/css/main.128e2f7d.chunk.css"
+    "revision": "a3edd8cfb87309d431a6",
+    "url": "/static/css/main.ac682dee.chunk.css"
   },
   {
-    "revision": "21def19a894b17f584e4",
-    "url": "/static/js/2.db11e8a9.chunk.js"
+    "revision": "b9819477f943bb2a3528",
+    "url": "/static/js/2.134cf0f1.chunk.js"
   },
   {
-    "revision": "b5121b83f71062fc3759",
-    "url": "/static/js/main.cee272b9.chunk.js"
+    "revision": "a3edd8cfb87309d431a6",
+    "url": "/static/js/main.365954c9.chunk.js"
   },
   {
     "revision": "113734192e259b229392",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "ff0ef622efde6c124d96676dc39a7a2b",
+    "url": "/static/media/Bots-n-Brains-Logo-png.ff0ef622.png"
   },
   {
     "revision": "e0bd96dc51b3832dfc08f3bee1bd7ebc",
