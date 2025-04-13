@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae6f6aaa647cb9115ee382f80521ea0d",
+    "revision": "d991e94499ea30da5cb96cc259159e5b",
     "url": "/index.html"
   },
   {
-    "revision": "a3edd8cfb87309d431a6",
-    "url": "/static/css/main.ac682dee.chunk.css"
+    "revision": "bb763676ad337f817cfe",
+    "url": "/static/css/main.d38162bd.chunk.css"
   },
   {
     "revision": "b9819477f943bb2a3528",
     "url": "/static/js/2.134cf0f1.chunk.js"
   },
   {
-    "revision": "a3edd8cfb87309d431a6",
-    "url": "/static/js/main.365954c9.chunk.js"
+    "revision": "bb763676ad337f817cfe",
+    "url": "/static/js/main.b05e217c.chunk.js"
   },
   {
     "revision": "113734192e259b229392",
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
-  },
-  {
-    "revision": "ff0ef622efde6c124d96676dc39a7a2b",
-    "url": "/static/media/Bots-n-Brains-Logo-png.ff0ef622.png"
   },
   {
     "revision": "e0bd96dc51b3832dfc08f3bee1bd7ebc",
@@ -64,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-brands-400.5063b105.eot"
   },
   {
-    "revision": "9d204f50ec8e5bcc5dcda0132d404b48",
-    "url": "/static/media/fa-brands-400.9d204f50.svg"
+    "revision": "a9c4bb7348f42626454c988dbde1d0a0",
+    "url": "/static/media/fa-brands-400.a9c4bb73.svg"
   },
   {
     "revision": "c5e0f14f88a828261ba01558ce2bf26f",
@@ -80,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-regular-400.65b286af.ttf"
   },
   {
-    "revision": "9443c1e7fdf95d739af3f0901224f90a",
-    "url": "/static/media/fa-regular-400.9443c1e7.svg"
+    "revision": "7b9568e6389b1f8ae0902cd39665fc1e",
+    "url": "/static/media/fa-regular-400.7b9568e6.svg"
   },
   {
     "revision": "c1a866ec0e04a5e1915b41fcf261457c",
@@ -104,16 +100,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-solid-900.333bae20.woff"
   },
   {
-    "revision": "3d102342391af184d5ae9e7708d8220f",
-    "url": "/static/media/fa-solid-900.3d102342.svg"
-  },
-  {
     "revision": "44d537ab79f921fde5a28b2c1636f397",
     "url": "/static/media/fa-solid-900.44d537ab.woff2"
   },
   {
     "revision": "8e4a6dcc692b3887f9f542cd6894d6d4",
     "url": "/static/media/fa-solid-900.8e4a6dcc.eot"
+  },
+  {
+    "revision": "c2801fb415f03c7b170934769d7b5397",
+    "url": "/static/media/fa-solid-900.c2801fb4.svg"
   },
   {
     "revision": "b1ed41eadbbdcb15a726673038df549d",
@@ -130,5 +126,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "731ad51b7bcbbc4a28e73f80badb4dee",
     "url": "/static/media/shreyas.731ad51b.jpg"
+  },
+  {
+    "revision": "9d592911d0133e594d7cd5a768383a9c",
+    "url": "/static/media/velotio_1.9d592911.png"
   }
 ]);
