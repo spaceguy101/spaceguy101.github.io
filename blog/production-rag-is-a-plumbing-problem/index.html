@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#55198b" />
+    <!-- Monogram, generated from scripts/og/icon.svg. The favicon used to be
+         the stock Create React App atom, and index.html pointed at a duplicate
+         copy of it (favicon1.ico) rather than favicon.ico. -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon-96.png" sizes="96x96" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Primary meta -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Shreyas Ponkshe" />
+    <meta
+      name="keywords"
+      content="Shreyas Ponkshe, Lead Backend Engineer, GenAI Engineer, Node.js, TypeScript, LangChain, RAG, AWS, GCP, Azure, Cloud Architect, Pune"
+    />
+
+    <!--
+      Everything between the seo markers is rewritten per route by
+      scripts/prerender.mjs, which reads src/seo.js. The values below are the
+      homepage's, and they are what the dev server serves for every route.
+      Do not hand-edit the copy here: change src/seo.js instead.
+      The markers are load-bearing. Keep them exactly as they are.
+    -->
+    <!--seo-->
+    <title>Production RAG Is Mostly a Plumbing Problem | Shreyas Ponkshe</title>
+    <meta name="description" content="The retrieval step is the easy part. What breaks a coaching assistant once it is in daily production use is everything around it." />
+    <link rel="canonical" href="https://shreyasponkshe.com/blog/production-rag-is-a-plumbing-problem" />
+    <meta property="og:title" content="Production RAG Is Mostly a Plumbing Problem | Shreyas Ponkshe" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://shreyasponkshe.com/blog/production-rag-is-a-plumbing-problem" />
+    <meta property="og:description" content="The retrieval step is the easy part. What breaks a coaching assistant once it is in daily production use is everything around it." />
+    <meta property="og:image" content="https://shreyasponkshe.com/og/posts/production-rag-is-a-plumbing-problem.png" />
+    <meta property="og:image:alt" content="Production RAG Is Mostly a Plumbing Problem | Shreyas Ponkshe" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Production RAG Is Mostly a Plumbing Problem | Shreyas Ponkshe" />
+    <meta name="twitter:description" content="The retrieval step is the easy part. What breaks a coaching assistant once it is in daily production use is everything around it." />
+    <meta name="twitter:image" content="https://shreyasponkshe.com/og/posts/production-rag-is-a-plumbing-problem.png" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Production RAG Is Mostly a Plumbing Problem","description":"The retrieval step is the easy part. What breaks a coaching assistant once it is in daily production use is everything around it.","datePublished":"2026-07-22","dateModified":"2026-07-22","image":"https://shreyasponkshe.com/og/posts/production-rag-is-a-plumbing-problem.png","url":"https://shreyasponkshe.com/blog/production-rag-is-a-plumbing-problem","author":{"@type":"Person","name":"Shreyas Ponkshe","url":"https://shreyasponkshe.com/about"},"publisher":{"@type":"Person","name":"Shreyas Ponkshe"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://shreyasponkshe.com/blog/production-rag-is-a-plumbing-problem"}}</script>
+    <!--/seo-->
+
+    <!-- Structured data: who this page is about -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Shreyas Ponkshe",
+        "url": "https://shreyasponkshe.com/",
+        "jobTitle": "Lead Backend Engineer (GenAI & Cloud Systems)",
+        "email": "mailto:shreyasponkshe12345@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pune",
+          "addressCountry": "India"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/shreyasponkshe/",
+          "https://github.com/spaceguy101"
+        ],
+        "knowsAbout": [
+          "Node.js",
+          "TypeScript",
+          "Generative AI",
+          "LangChain",
+          "RAG",
+          "AWS",
+          "GCP",
+          "Azure",
+          "Cloud Architecture"
+        ]
+      }
+    </script>
+
+    <link rel="manifest" href="/manifest.json" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--
+      Loaded without blocking render. As a plain stylesheet this cost ~845ms of
+      render-blocking time on a throttled connection, which was most of the
+      first-contentful-paint budget on a page whose content is already in the
+      HTML. media="print" makes the browser fetch it at low priority without
+      applying it; onload flips it to all.
+
+      This adds no flash that was not already there: the URL carries
+      display=swap, so text has always painted in the fallback and swapped when
+      Montserrat arrived. It just starts that first paint sooner.
+    -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap"
+      media="print"
+      onload="this.media='all'; this.onload=null;"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap"
+      />
+    </noscript>
+
+    <script type="module" crossorigin src="/assets/index-_ovxUVbj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cgnh7bfk.css">
+  </head>
+
+  <body>
+    <!--
+      #root is not empty in a production build: scripts/prerender.mjs replaces
+      the marker below with the fully rendered markup for each route, and
+      src/index.js hydrates it rather than re-rendering. The marker is
+      load-bearing; leave it alone.
+    -->
+    <div id="root"><div><div><div class="header-bar"><header class="header"><a href="/#greeting" class="logo"><span class="logo-name">Shreyas Ponkshe</span></a><input class="menu-btn" type="checkbox" id="menu-btn"/><label class="menu-icon" for="menu-btn" aria-label="Toggle navigation menu"><span class="navicon"></span></label><ul class="menu"><li><a href="/about">About</a></li><li><a href="/#skills">What I do</a></li><li><a href="/#projects">Projects</a></li><li><a href="/blog">Writing</a></li><li><a href="/#contact">Contact</a></li><li class="menu-cta"><a href="mailto:shreyasponkshe12345@gmail.com">Email me</a></li></ul></header></div><div class="main blog-post"><a class="blog-back" href="/blog"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg> All writing</a><article><h1 class="blog-post-title">Production RAG Is Mostly a Plumbing Problem</h1><p class="blog-post-meta">July 22, 2026<!-- --> · <!-- -->4<!-- --> min read</p><div class="prose"><p>Every RAG demo looks the same. Chunk some documents, embed them, drop them in a
+vector store, stuff the top-k results into a prompt. It works on the first try,
+which is exactly the problem: it teaches you that retrieval is the hard part.</p>
+<p>It isn&#39;t. When we took a Slack-embedded coaching assistant from a working prototype
+to something a whole organisation leaned on daily, almost none of the work that
+mattered was retrieval work. It was plumbing.</p>
+<h2>The prototype lies to you</h2>
+<p>A prototype is evaluated by the person who built it, on documents they already
+know, with questions they already know the answer to. Every one of those
+conditions inverts in production.</p>
+<p>Real users ask questions your corpus cannot answer. They ask follow-ups that only
+make sense given the previous three messages. They paste a wall of text and ask
+&quot;thoughts?&quot;. They ask the same question two weeks apart and notice when the answers
+disagree. None of that shows up in a notebook.</p>
+<p>The first honest signal we got was not an eval score. It was a Slack thread where
+someone asked a reasonable question, got a confident and wrong answer, and replied
+with a single question mark.</p>
+<h2>What actually took the time</h2>
+<p>Ranked roughly by how much engineering they consumed:</p>
+<ol>
+<li><strong>Context assembly.</strong> Deciding what goes into the prompt, in what order, and
+what gets dropped when the budget is tight. Retrieved chunks compete with
+conversation history, user profile, and system instructions for the same window.</li>
+<li><strong>Conversation state.</strong> Slack threads are the unit of conversation, not
+messages. Getting thread reconstruction right (including edits, deletions, and
+people joining mid-thread) was more code than the retrieval layer.</li>
+<li><strong>Failure behavior.</strong> What the assistant does when retrieval returns nothing
+relevant. Saying &quot;I don&#39;t have anything on that&quot; is a feature and it has to be
+engineered, because the default behavior of a language model is to answer anyway.</li>
+<li><strong>Cost and latency shaping.</strong> Streaming, caching, and knowing which requests
+deserve the expensive path.</li>
+<li><strong>Retrieval quality.</strong> Real, but a distant fifth.</li>
+</ol>
+<h2>Ground the model, then constrain it</h2>
+<p>The single highest-leverage change was not a better embedding model. It was making
+the prompt carry provenance, and making the instructions treat that provenance as
+the boundary of what may be said.</p>
+<pre><code class="language-js">// Every retrieved chunk arrives with its source attached, and the system prompt
+// is explicit that anything outside these blocks is off-limits.
+const context = chunks
+  .map((c, i) =&gt; `[${i + 1}] ${c.source}\n${c.text}`)
+  .join(&quot;\n\n&quot;);
+</code></pre>
+<p>Once sources are in the prompt as structured, numbered blocks, two things get
+easier at once. The model cites them, so users can check the answer. And &quot;answer
+only from the numbered sources, otherwise say you don&#39;t know&quot; becomes an
+instruction the model can actually follow, because there is a concrete thing to
+point at.</p>
+<blockquote>
+<p>The useful mental model: retrieval decides what the assistant is allowed to know.
+Everything after that is about making it behave as if that boundary is real.</p>
+</blockquote>
+<h2>Evaluate on the questions you actually get</h2>
+<p>We stopped writing eval sets by hand fairly early. The questions we invented were
+too clean and too close to the documents we had indexed.</p>
+<p>What replaced them was boring and much better: sample real questions, label the
+answers, and keep the failures as fixtures. A regression suite built from ten
+genuinely bad production answers caught more than a synthetic set of a hundred.</p>
+<p>The metric that survived was not similarity or faithfulness. It was the share of
+answers a reviewer would send to a colleague without editing.</p>
+<h2>Ship it where the work happens</h2>
+<p>The last thing worth saying is about surface. This assistant lives in Slack, not in
+a web app, and that was not a convenience decision.</p>
+<p>A separate app is a place people have to remember to go. A bot in the channel where
+the conversation is already happening gets used because using it costs nothing.
+Adoption is a distribution problem long before it is a model problem, and the
+number that mattered most (daily active users) moved on distribution decisions,
+not on model upgrades.</p>
+<p>If you are building something similar: budget your time for the plumbing. The
+retrieval will be fine.</p>
+</div></article><aside class="blog-related-project">The project behind this post:<!-- --> <a href="/#projects">AI Coaching Assistant</a></aside><a class="blog-back blog-back--footer" href="/blog"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg> All writing</a></div><footer class="footer-div"><span class="footer-wordmark">Shreyas Ponkshe</span><p class="footer-copyright">© <!-- -->2026<!-- --> Shreyas Ponkshe</p></footer><button id="topButton" aria-label="Back to top" tabindex="-1" aria-hidden="true"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg></button></div></div></div>
+    <!-- Analytics is loaded from src/analytics.js, not from a tag here, so an
+         unconfigured deploy ships no third-party script at all. -->
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!--
+    Served directly to browsers that support SVG favicons, which is all of the
+    current ones. scripts/og.mjs renders the same source (scripts/og/icon.svg)
+    to PNG for the PWA icons, the apple-touch-icon, and the raster fallback.
+    Keep the two in step.
+  -->
+  <rect width="512" height="512" rx="96" fill="#55198b"/>
+  <text
+    x="256"
+    y="340"
+    font-family="Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="240"
+    font-weight="500"
+    fill="#ffffff"
+    text-anchor="middle"
+  >SP</text>
+</svg>

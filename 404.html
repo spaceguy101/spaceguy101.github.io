@@ -2,45 +2,120 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Shreyas Ponkshe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, follow" />
+    <title>Page not found | Shreyas Ponkshe</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <!--
-      GitHub Pages serves this file for any path it can't find on disk, which is
-      every client-side route (/blog/some-post). It re-encodes the requested path
-      into a query string and bounces to the root, where the matching decoder in
-      index.html turns it back into a real URL before the app boots.
-
-      pathSegmentsToKeep is 0 because the site is served at the domain root
-      (shreyasponkshe.com), not from a project subpath.
-
-      Adapted from rafgraph/spa-github-pages (MIT).
+      A real 404, not a redirect. This used to be the spa-github-pages shim that
+      re-encoded the path into /?/… and bounced to the root, because every
+      client-side route missed on disk. scripts/prerender.mjs writes a real file
+      for every route now, so reaching this page means the URL genuinely does
+      not exist, and saying so beats silently landing someone on the homepage.
     -->
-    <script>
-      (function (location) {
-        var pathSegmentsToKeep = 0;
-
-        location.replace(
-          location.protocol +
-            "//" +
-            location.hostname +
-            (location.port ? ":" + location.port : "") +
-            location.pathname
-              .split("/")
-              .slice(0, 1 + pathSegmentsToKeep)
-              .join("/") +
-            "/?/" +
-            location.pathname
-              .slice(1)
-              .split("/")
-              .slice(pathSegmentsToKeep)
-              .join("/")
-              .replace(/&/g, "~and~") +
-            (location.search ? "&" + location.search.slice(1).replace(/&/g, "~and~") : "") +
-            location.hash
-        );
-      })(window.location);
-    </script>
+    <style>
+      :root {
+        --violet: #55198b;
+        --ink: rgb(36, 41, 46);
+        --muted: #57606a;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        box-sizing: border-box;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        color: var(--ink);
+        background: #ffffff;
+      }
+      main {
+        max-width: 34rem;
+      }
+      .code {
+        font-size: 0.875rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 0 0 12px;
+      }
+      h1 {
+        font-size: clamp(1.75rem, 5vw, 2.5rem);
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0 0 16px;
+      }
+      p.lead {
+        font-size: 1rem;
+        line-height: 1.65;
+        color: #333333;
+        margin: 0 0 28px;
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 24px;
+      }
+      a {
+        color: var(--violet);
+        font-weight: 500;
+        text-decoration: none;
+        border-bottom: 1px solid currentColor;
+        padding-bottom: 1px;
+      }
+      a:hover,
+      a:focus-visible {
+        color: var(--ink);
+      }
+      a:focus-visible {
+        outline: 2px solid var(--violet);
+        outline-offset: 3px;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #0d1117;
+          color: #e6edf3;
+        }
+        p.lead {
+          color: #b6c2cf;
+        }
+        .code {
+          color: #8b949e;
+        }
+        a {
+          color: #c7a6e8;
+        }
+        a:hover,
+        a:focus-visible {
+          color: #ffffff;
+        }
+      }
+    </style>
   </head>
   <body>
-    <p>Redirecting…</p>
+    <main>
+      <p class="code">404</p>
+      <h1>That page doesn't exist</h1>
+      <p class="lead">
+        The link may be out of date, or the page may have moved. Here is where
+        everything else lives.
+      </p>
+      <div class="links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/blog">Writing</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#contact">Contact</a>
+      </div>
+    </main>
   </body>
 </html>

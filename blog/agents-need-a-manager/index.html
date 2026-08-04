@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#55198b" />
+    <!-- Monogram, generated from scripts/og/icon.svg. The favicon used to be
+         the stock Create React App atom, and index.html pointed at a duplicate
+         copy of it (favicon1.ico) rather than favicon.ico. -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon-96.png" sizes="96x96" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Primary meta -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Shreyas Ponkshe" />
+    <meta
+      name="keywords"
+      content="Shreyas Ponkshe, Lead Backend Engineer, GenAI Engineer, Node.js, TypeScript, LangChain, RAG, AWS, GCP, Azure, Cloud Architect, Pune"
+    />
+
+    <!--
+      Everything between the seo markers is rewritten per route by
+      scripts/prerender.mjs, which reads src/seo.js. The values below are the
+      homepage's, and they are what the dev server serves for every route.
+      Do not hand-edit the copy here: change src/seo.js instead.
+      The markers are load-bearing. Keep them exactly as they are.
+    -->
+    <!--seo-->
+    <title>A Fleet of Coding Agents Needs a Manager, Not a Bigger Model | Shreyas Ponkshe</title>
+    <meta name="description" content="Running several autonomous coding agents at once is an engineering management problem wearing a systems-engineering costume." />
+    <link rel="canonical" href="https://shreyasponkshe.com/blog/agents-need-a-manager" />
+    <meta property="og:title" content="A Fleet of Coding Agents Needs a Manager, Not a Bigger Model | Shreyas Ponkshe" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://shreyasponkshe.com/blog/agents-need-a-manager" />
+    <meta property="og:description" content="Running several autonomous coding agents at once is an engineering management problem wearing a systems-engineering costume." />
+    <meta property="og:image" content="https://shreyasponkshe.com/og/posts/agents-need-a-manager.png" />
+    <meta property="og:image:alt" content="A Fleet of Coding Agents Needs a Manager, Not a Bigger Model | Shreyas Ponkshe" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="A Fleet of Coding Agents Needs a Manager, Not a Bigger Model | Shreyas Ponkshe" />
+    <meta name="twitter:description" content="Running several autonomous coding agents at once is an engineering management problem wearing a systems-engineering costume." />
+    <meta name="twitter:image" content="https://shreyasponkshe.com/og/posts/agents-need-a-manager.png" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"A Fleet of Coding Agents Needs a Manager, Not a Bigger Model","description":"Running several autonomous coding agents at once is an engineering management problem wearing a systems-engineering costume.","datePublished":"2026-06-10","dateModified":"2026-06-10","image":"https://shreyasponkshe.com/og/posts/agents-need-a-manager.png","url":"https://shreyasponkshe.com/blog/agents-need-a-manager","author":{"@type":"Person","name":"Shreyas Ponkshe","url":"https://shreyasponkshe.com/about"},"publisher":{"@type":"Person","name":"Shreyas Ponkshe"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://shreyasponkshe.com/blog/agents-need-a-manager"}}</script>
+    <!--/seo-->
+
+    <!-- Structured data: who this page is about -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Shreyas Ponkshe",
+        "url": "https://shreyasponkshe.com/",
+        "jobTitle": "Lead Backend Engineer (GenAI & Cloud Systems)",
+        "email": "mailto:shreyasponkshe12345@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pune",
+          "addressCountry": "India"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/shreyasponkshe/",
+          "https://github.com/spaceguy101"
+        ],
+        "knowsAbout": [
+          "Node.js",
+          "TypeScript",
+          "Generative AI",
+          "LangChain",
+          "RAG",
+          "AWS",
+          "GCP",
+          "Azure",
+          "Cloud Architecture"
+        ]
+      }
+    </script>
+
+    <link rel="manifest" href="/manifest.json" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--
+      Loaded without blocking render. As a plain stylesheet this cost ~845ms of
+      render-blocking time on a throttled connection, which was most of the
+      first-contentful-paint budget on a page whose content is already in the
+      HTML. media="print" makes the browser fetch it at low priority without
+      applying it; onload flips it to all.
+
+      This adds no flash that was not already there: the URL carries
+      display=swap, so text has always painted in the fallback and swapped when
+      Montserrat arrived. It just starts that first paint sooner.
+    -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap"
+      media="print"
+      onload="this.media='all'; this.onload=null;"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap"
+      />
+    </noscript>
+
+    <script type="module" crossorigin src="/assets/index-_ovxUVbj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cgnh7bfk.css">
+  </head>
+
+  <body>
+    <!--
+      #root is not empty in a production build: scripts/prerender.mjs replaces
+      the marker below with the fully rendered markup for each route, and
+      src/index.js hydrates it rather than re-rendering. The marker is
+      load-bearing; leave it alone.
+    -->
+    <div id="root"><div><div><div class="header-bar"><header class="header"><a href="/#greeting" class="logo"><span class="logo-name">Shreyas Ponkshe</span></a><input class="menu-btn" type="checkbox" id="menu-btn"/><label class="menu-icon" for="menu-btn" aria-label="Toggle navigation menu"><span class="navicon"></span></label><ul class="menu"><li><a href="/about">About</a></li><li><a href="/#skills">What I do</a></li><li><a href="/#projects">Projects</a></li><li><a href="/blog">Writing</a></li><li><a href="/#contact">Contact</a></li><li class="menu-cta"><a href="mailto:shreyasponkshe12345@gmail.com">Email me</a></li></ul></header></div><div class="main blog-post"><a class="blog-back" href="/blog"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg> All writing</a><article><h1 class="blog-post-title">A Fleet of Coding Agents Needs a Manager, Not a Bigger Model</h1><p class="blog-post-meta">June 10, 2026<!-- --> · <!-- -->3<!-- --> min read</p><div class="prose"><p>One coding agent in a terminal is a tool. Five of them running in parallel is an
+organization, and organizations fail for organizational reasons.</p>
+<p>I built <a href="https://github.com/spaceguy101/engineering-manager-for-agents">engineering-manager-for-agents</a>
+after watching the same three failures repeat: agents duplicating each other&#39;s
+work, agents quietly burning budget on a task that was never going to converge,
+and agents producing changes nobody could review because there was no record of
+what any of them had been asked to do.</p>
+<p>None of those are model capability problems. Every one of them is a management
+problem.</p>
+<h2>The shape of the harness</h2>
+<p>The design is deliberately unoriginal, because the pattern it copies works:</p>
+<ul>
+<li><strong>One planner, many ICs.</strong> A single agent decomposes the work and delegates.
+The workers never talk to each other, only to the planner. Fan-out with a
+single point of coordination.</li>
+<li><strong>One task, one workspace, one branch.</strong> Each worker gets an isolated checkout
+and pushes through <code>git</code> and the GitHub CLI. If two agents touch the same file,
+that conflict surfaces as a merge conflict, where humans already know how to
+resolve it.</li>
+<li><strong>Sessions you can look at.</strong> Workers run in <code>tmux</code> panes. When something goes
+sideways you attach and read the transcript, rather than reconstructing it from
+logs after the fact.</li>
+<li><strong>A budget per task.</strong> Every delegation carries a hard ceiling. Hitting it ends
+the task and reports back.</li>
+</ul>
+<h2>Budgets are the load-bearing part</h2>
+<p>The budget is the piece I would keep if I had to throw everything else away.</p>
+<p>An autonomous agent has no sense of sunk cost. It will happily spend an hour and a
+large pile of tokens circling a problem it cannot solve, and because it is
+producing plausible intermediate output the whole time, nothing looks wrong from
+outside. A wall-clock or token ceiling converts that silent failure into a loud
+one.</p>
+<pre><code class="language-bash"># A worker that exceeds its ceiling is stopped and reported, not left running.
+delegate --task &quot;migrate the auth middleware&quot; --max-tokens 400000 --timeout 25m
+</code></pre>
+<p>The number matters less than the fact that there is one. What a ceiling buys you
+is not savings. It is the guarantee that every task terminates, which is what makes
+the whole fleet observable.</p>
+<blockquote>
+<p>Autonomy without a termination condition isn&#39;t autonomy. It&#39;s an unbounded loop
+with better prose.</p>
+</blockquote>
+<h2>What delegation has to carry</h2>
+<p>The quality of a delegated task tracks almost entirely with how well the boundary
+is specified. The prompts that worked shared a structure:</p>
+<ol>
+<li>The goal, in one sentence.</li>
+<li>The files or directories the task is allowed to touch.</li>
+<li>The definition of done, expressed as a command that either passes or fails.</li>
+<li>What to do when blocked, which is always &quot;stop and report&quot;, never &quot;improvise&quot;.</li>
+</ol>
+<p>Point four is the one that gets left out. An agent that improvises past a blocker
+produces work that looks finished and isn&#39;t, and you will not find out until
+review.</p>
+<h2>What this does not fix</h2>
+<p>Being honest about the limits:</p>
+<ul>
+<li><strong>Review does not scale for free.</strong> Five agents produce five pull requests, and a
+human still reads them. The harness makes work parallel, not weightless.</li>
+<li><strong>Decomposition is still the hard part.</strong> A badly split task fails no matter how
+well it is supervised. The planner is the bottleneck, and improving it is mostly
+prompt work.</li>
+<li><strong>It rewards well-factored codebases.</strong> Parallel agents on a tangled repo mostly
+generate merge conflicts.</li>
+</ul>
+<h2>The takeaway</h2>
+<p>The instinct when a fleet of agents underperforms is to reach for a better model.
+Usually the better return is on the boring parts: clear task boundaries, isolated
+workspaces, hard budgets, and a transcript you can read.</p>
+<p>The code is MIT licensed. If you try it, the piece I would most like feedback on is
+the delegation format, since that is where most of the leverage lives.</p>
+</div></article><aside class="blog-related-project">The project behind this post:<!-- --> <a href="/#projects">Engineering Manager for Agents</a></aside><a class="blog-back blog-back--footer" href="/blog"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg> All writing</a></div><footer class="footer-div"><span class="footer-wordmark">Shreyas Ponkshe</span><p class="footer-copyright">© <!-- -->2026<!-- --> Shreyas Ponkshe</p></footer><button id="topButton" aria-label="Back to top" tabindex="-1" aria-hidden="true"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg></button></div></div></div>
+    <!-- Analytics is loaded from src/analytics.js, not from a tag here, so an
+         unconfigured deploy ships no third-party script at all. -->
+  </body>
+</html>
