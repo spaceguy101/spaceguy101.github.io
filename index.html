@@ -84,13 +84,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap"
       rel="stylesheet"
     />
 
     <title>Shreyas Ponkshe | Lead Backend & GenAI Engineer</title>
-    <script type="module" crossorigin src="/assets/index-MCNxV-7P.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Bg7z81RH.css">
+
+    <!--
+      GitHub Pages has no SPA rewrite, so a hard load of /blog/some-post serves
+      404.html, which encodes the path as /?/blog/some-post and redirects here.
+      This decodes it back before the app boots, so react-router sees the real
+      URL and the address bar never shows the query form.
+      Must stay ahead of the module script below.
+    -->
+    <script>
+      (function (location) {
+        if (location.search[1] !== "/") return;
+        var decoded = location.search
+          .slice(1)
+          .split("&")
+          .map(function (part) {
+            return part.replace(/~and~/g, "&");
+          })
+          .join("?");
+        window.history.replaceState(
+          null,
+          null,
+          location.pathname.slice(0, -1) + decoded + location.hash
+        );
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="/assets/index-CDsbFxFN.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DIbVyx2G.css">
   </head>
 
   <body>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Shreyas Ponkshe</title>
+    <!--
+      GitHub Pages serves this file for any path it can't find on disk, which is
+      every client-side route (/blog/some-post). It re-encodes the requested path
+      into a query string and bounces to the root, where the matching decoder in
+      index.html turns it back into a real URL before the app boots.
+
+      pathSegmentsToKeep is 0 because the site is served at the domain root
+      (shreyasponkshe.com), not from a project subpath.
+
+      Adapted from rafgraph/spa-github-pages (MIT).
+    -->
+    <script>
+      (function (location) {
+        var pathSegmentsToKeep = 0;
+
+        location.replace(
+          location.protocol +
+            "//" +
+            location.hostname +
+            (location.port ? ":" + location.port : "") +
+            location.pathname
+              .split("/")
+              .slice(0, 1 + pathSegmentsToKeep)
+              .join("/") +
+            "/?/" +
+            location.pathname
+              .slice(1)
+              .split("/")
+              .slice(pathSegmentsToKeep)
+              .join("/")
+              .replace(/&/g, "~and~") +
+            (location.search ? "&" + location.search.slice(1).replace(/&/g, "~and~") : "") +
+            location.hash
+        );
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting…</p>
+  </body>
+</html>
